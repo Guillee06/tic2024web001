@@ -1,0 +1,44 @@
+body {
+  background-color: lightblue;
+  text-align: left;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+img {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+.bloque1,
+.bloque2 {
+  border: 2px solid;
+  margin: 10px;
+  padding: 10px;
+}
+
+.bloque1 {
+  background-color: gold;
+}
+
+.bloque2 {
+  background-color: silver;
+}
+
+/* Añadido para ocultar el bloque */
+.oculto {
+  display: none;
+}
+
+.cambio-color {
+  background-color: orange !important;
+}
+
+.copyright {
+  font-weight: bold;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
